@@ -5,7 +5,7 @@ git pull
 git checkout gh-pages
 git pull origin gh-pages
 
-curl https://github.com/jeremylong/Open-Vulnerability-Project/releases/download/v9.0.0/vulnz-9.0.0.jar -s -L -o vulnz.jar
+curl https://github.com/jeremylong/Open-Vulnerability-Project/releases/download/v9.0.4/vulnz-9.0.4.jar -s -L -o vulnz.jar
 git reset --soft HEAD~1
 
 mkdir nvd_cache
